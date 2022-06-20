@@ -1,0 +1,12 @@
+{
+  "name": "Haxball Cleaner",
+  "description": "Elimina los anuncios y la barra superior para una visión más amplia de la cancha",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.haxball.com/play"],
+      "js": ["script.js"]
+    }
+  ]
+}
